@@ -3,9 +3,7 @@
 In general a quadrature rule is an approximation of the definite integral of a function `f(x)` over an interval `[a, b]` by a sum of weighted functions at certain points within the domain of integration. The goal is to find such weights and points within the domain. In general, a quadrature is in the form of:
 
 ```math
-\begin{equation}
 \int\limits_{a}^{b} f(x) dx \approx \sum_{i=1}^{n} w_i f(x_i)
-\end{equation}
 ```
 
 where $w_i$'s are the weights and $x_i$'s are the fixed points (the **roots** of a polynomial belonging to a class of orthogonal polynomials) within the domain. In the case of Gaussian quadrature, $a=-1, b=1$, and the quadrature is exact (approximation becomes equality) up to polynomials of degree $2n-1$. Gaussian-Legendre quadrature is a special form of Gaussian quadrature that utilizes orthogonal polynomials that are called Legendre polynomials, denoted by $P_n(x)$. These polynomials are defined as an orthogonal system (orthogonal with respect to $L_2$ inner product) satisfying:
