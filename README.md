@@ -1,8 +1,6 @@
-# Gauss-Legendre-Quadrature-in-1D-and-2D
-
 ## Gauss-Legendre Quadrature Rule in 1D and 2D
 
-In general a quadrature rule is an approximation of the definite integral of a function $f(x)$ over an interval $[a, b]$ by a sum of weighted functions at certain points within the domain of integration. The goal is to find such weights and points within the domain. In general, a quadrature is in the form of:
+In general a quadrature rule is an approximation of the definite integral of a function $`f(x)`$ over an interval $[a, b]$ by a sum of weighted functions at certain points within the domain of integration. The goal is to find such weights and points within the domain. In general, a quadrature is in the form of:
 
 \begin{equation}
 \int\limits_{a}^{b} f(x) dx \approx \sum_{i=1}^{n} w_i f(x_i)
